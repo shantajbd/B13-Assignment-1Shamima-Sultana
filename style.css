@@ -1,5 +1,6 @@
 
-.btn{background-color:#07853c ;
+.btn{
+    background-color:#07853c ;
     border: none;
     padding: 13px 16px;
     border-radius: 5px;
@@ -13,22 +14,36 @@
 }
 
 
-header{padding-top: 16px;
-
-    padding-bottom: 16px;
-
-}
-
-nav{width:1600px;
+   nav {width:1600px;
     height: 92px;
     
-    margin: 0px auto;
+    margin-top: 0;
     align-items: center;
+margin-bottom:200px;
+
+
+}
+
+
+
+header{margin-bottom: 0;
+
+    
+    background: url(./assets/hero-bg.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+     
     
 
 }
 
+
 .logo div {
+    border: 2px solid white;
+    margin-bottom: auto;
 
     display: flex;
     justify-content: space-around;
@@ -44,6 +59,7 @@ nav .menu {display: flex;
     list-style-type: none;
     gap:32px ;
     align-items: center;
+
     
 
 }
@@ -56,13 +72,15 @@ nav .menu a{ color: black;
 
 }
 
-#banner {background-color: black;
-    width: 2024px;
+#banner {
+    width: 2042px;
     height: 1000px;
+    
         
 
      }
-.open{justify-content:;
+.open { 
+    justify-content:center;
     color: #07853c;
     display: block;
     width: 200px;
@@ -70,6 +88,7 @@ nav .menu a{ color: black;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+    
     
     
 
@@ -126,7 +145,8 @@ nav .menu a{ color: black;
 
 }
 
-.b  { color: white;
+.b {
+    color: white;
     background-color: black;
     padding:16px 16px 16px 46px;
     border: 1px dotted white;
@@ -139,7 +159,8 @@ nav .menu a{ color: black;
 
 }
 
-.a {background-color:#07853c ;
+.a  {
+    background-color:#07853c ;
     border: none;
     padding: 16.5px 46px 16.5px 16px;
     border-radius: 5px;
@@ -148,7 +169,52 @@ nav .menu a{ color: black;
     color: white;
     margin:0 auto;
 
+} 
+#notes {
+    
+    padding-top: 130px;
+
 }
+#notes .notes-container{
+    width: 80%;
+    max-width: 1300px;
+    margin:0 auto ;
+    text-align: center;
+
+}
+
+ .notes-container .section-heading  h2 {
+    display: block;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    margin: 30px;
+}
+
+.notes-container .section-heading p{
+    
+    color: rgba(98, 115, 130, 1);
+    font-size: 26px;
+    margin-bottom:44px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.section-heading{
+    max-width:1360px ;
+    text-align: center;
+}
+
+.notes-container {
+padding: 44px 250px;
+
+
+
+} 
+
+    
 
 
 
